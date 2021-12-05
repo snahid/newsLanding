@@ -469,14 +469,14 @@ a {
 @media (max-width: 374px) {
   .slider-box .slick-carousel {
     margin: 0 auto;
-    max-width: 295px;
+    max-width: 285px;
     width: 100%;
   }
 }
 @media (max-width: 359px) {
   .slider-box .slick-carousel {
     margin: 0 auto;
-    max-width: 285px;
+    max-width: 275px;
     width: 100%;
   }
 }
