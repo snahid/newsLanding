@@ -516,7 +516,6 @@ span.pull-right.desktop {
   height: 100vh;
   z-index: -1;
 }
-
 .headerHide {
   display: none !important;
   transform: translateY(-100px);
@@ -546,7 +545,6 @@ span.pull-right.desktop {
     object-fit: cover;
   }
 }
-
 /* Slick Carousel  */
 
 /*Top Slider */
@@ -570,7 +568,6 @@ span.pull-right.desktop {
     font-size: 14px !important;
   }
 }
-
 .slide-link:hover {
   text-decoration: unset;
   color: #bd0e0e !important;
@@ -579,5 +576,4 @@ span.pull-right.desktop {
   color: #bd0e0e !important;
   font-weight: 400 !important;
 }
-
 /*Top Slider */
