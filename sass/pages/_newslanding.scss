@@ -199,6 +199,7 @@
         border: 1px solid #FA6363;
         box-sizing: border-box;
         color: #fff;
+        animation: change 5s infinite;
         a{
             color: #fff;
         }
@@ -214,3 +215,21 @@
         text-decoration: none;
     }
 }
+
+
+
+
+
+
+@keyframes change {
+    0%{
+        background-color: #d42a4c;
+    }
+    50%{
+     background-color: #802323;
+    }
+    100%{
+        background-color: #df2d2d;
+    }
+ }
+ 
