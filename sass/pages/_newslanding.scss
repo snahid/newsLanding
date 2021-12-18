@@ -1,21 +1,8 @@
 .newscategory-list-wrapper {
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
-
-    @media(max-width: 1366px){
-        width: 55%;
-    }
-    @media(max-width: 1024px) {
-        width: 60%;
-    }
-
-    @media(max-width: 768px) {
-        width: 100%;
-    }
+   
     .newscategory-inner-wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-gap: 30px;
 
         @media(max-width: 991px) {
@@ -27,30 +14,17 @@
             grid-gap: 10px;
         }
 
-        .newscategorylist-box {
-            @media(max-width: 575px) {
-                display: flex;
-                flex-direction: row;
-                width: 100%;
-            }
-
+        .newscategorylist-box { 
+            display: flex;
+            flex-direction: row;
+            width: 100%;
             .imgbox {
                 margin-bottom: 15px;
-
-                @media(max-width: 575px) {
-                    margin-right: 15px;
-                }
-
+                margin-right: 15px;
                 img {
-                    width: 100%;
-                    height: 150px;
+                    width: 110px;
+                    height: 110px;
                     object-fit: cover;
-
-                    @media(max-width: 575px) {
-                        width: 110px;
-                        height: 110px;
-                    }
-
                     @media(max-width: 400px) {
                         width: 100px;
                         height: 100px;
@@ -59,11 +33,9 @@
             }
 
             .list-content-box {
-                @media(max-width: 575px) {
-                    width: 70%;
-                    display: flex;
-                    flex-direction: column;
-                }
+                width: 70%;
+                display: flex;
+                flex-direction: column;
 
                 .listcompanyname {
                     color: #969696;
