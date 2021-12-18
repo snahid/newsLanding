@@ -304,6 +304,7 @@
 }
 .slick-slide {
   width: 350px;
+  text-align: center;
 }
 .slick-next::before,
 .slick-prev::before {
@@ -364,6 +365,11 @@ section {
 @media (max-width: 767px) {
   .slider-box {
     margin-top: 115px;
+  }
+}
+@media (max-width: 480px) {
+  .slider-box {
+    margin-top: 100px;
   }
 }
 .myheader {
@@ -482,6 +488,13 @@ a {
   .slider-box .slick-carousel {
     margin: 0 auto;
     max-width: 275px;
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .slider-box .slick-carousel {
+    margin: 0 auto;
+    max-width: 260px;
     width: 100%;
   }
 }

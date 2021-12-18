@@ -21,6 +21,9 @@
 
                     img {
                         width: 100%;
+                        @media(max-width: 480px){
+                            width: 80%;
+                        }
                     }
                 }
             }
@@ -146,6 +149,10 @@
         top: 90px;
         width: 100%;
         z-index: -1;
+        @media(max-width: 480px){
+            top: 80px;
+            min-height: calc(100vh - 80px);
+        }
 
         ul {
             margin: 0;

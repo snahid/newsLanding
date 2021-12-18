@@ -116,3 +116,7 @@ $('.cross').click(function () {
     });
     //Scroll
 
+
+    function goBack() {
+      window.history.back();
+    }
