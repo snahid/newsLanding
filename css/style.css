@@ -10890,10 +10890,12 @@ body {
 .modal-body {
   padding: 0;
 }
+.modal-body .modal-para {
+  padding: 16px;
+}
 
 .modal-footer {
   border-top: 0px solid transparent;
-  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
