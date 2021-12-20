@@ -15,16 +15,21 @@
         }
 
         .newscategorylist-box { 
-            display: flex;
-            flex-direction: row;
-            width: 100%;
+            @media(max-width: 991px){
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+            }
             .imgbox {
                 margin-bottom: 15px;
                 margin-right: 15px;
                 img {
-                    width: 110px;
-                    height: 110px;
-                    object-fit: cover;
+                    width: 100%;
+                    @media(max-width: 991px){
+                        width: 110px;
+                        height: 110px;
+                        object-fit: cover;
+                    }
                     @media(max-width: 400px) {
                         width: 100px;
                         height: 100px;

@@ -286,3 +286,33 @@
 }
 
 // Comment 
+
+
+
+// pop Up 
+.modal-header{
+    border-bottom: 0px solid transparent;
+    // padding: 0;
+    // .modal-btn-close{
+    //     position: absolute;
+    //     right: -20px;
+    //     top: 0;
+    //     content: "";
+    //     opacity: 1;
+    // }
+    .modal-btn-close{
+        opacity: 1;
+        &:focus{
+            outline: 0;
+            box-shadow: none;
+        }
+    }
+}
+.modal-body{
+    padding: 0;
+}
+.modal-footer{
+    border-top: 0px solid transparent;
+    padding: 0;
+}
+// pop Up 

@@ -395,6 +395,39 @@
     </div>
     <!-- News Section  -->
 
+    <!-- Pop Up  -->
+   <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <button type="button" class="btn-close modal-btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/MCdfF-fiRG4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</div>
+    <!-- Pop Up  -->
+
     <!-- Jquery Js-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -426,5 +459,11 @@
 
     <!-- Custom Js-->
     <script src="./js/custom.js"></script>
+
+    <script>
+       $(window).on('load',function(){
+        $('#exampleModal').modal('show');
+    });
+    </script>
   </body>
 </html>
