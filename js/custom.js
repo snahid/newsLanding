@@ -1,18 +1,18 @@
 $(".slick-carousel").slick({
   speed: 500,
   infinite: false,
-  slidesToShow: 5,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: false,
   autoplaySpeed: 2000,
   dots: false,
   centerMode: false,
-  arrows: true,
+  arrows: false,
   responsive: [
     {
       breakpoint: 1920,
       settings: {
-        slidesToShow: 5,
+        slidesToShow: 4,
         slidesToScroll: 1,
       },
     },
@@ -122,6 +122,36 @@ $('.cross').click(function () {
     }
 
    
+
+    $('.mycategory-owl').owlCarousel({
+      loop: false,
+      margin: 20,
+      nav: false,
+      dots: false,
+      autoplay: false,
+      autoplayTimeout: 4000,
+      autoplayHoverPause: true,
+      responsive: {
+          0: {
+              items: 2
+          },
+          260: {
+              items: 1
+          },
+          380: {
+              items: 1
+          },
+          768: {
+              items: 2
+          },
+          992: {
+              items: 4
+          },
+          1300: {
+              items: 4
+          }
+      }
+  })
 
 
 //   var myModal = document.getElementById('myModal')
