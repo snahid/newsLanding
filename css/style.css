@@ -10550,6 +10550,11 @@ body {
     width: 100%;
   }
 }
+@media (max-width: 600px) {
+  .single-article {
+    margin-top: 100px;
+  }
+}
 .single-article .singlenews-inner-wrapper .single-img-box {
   margin-bottom: 25px;
 }
