@@ -158,13 +158,24 @@
 /* Ripple Effect  */
 @keyframes ripple {
   0% {
-    box-shadow: 0px 0px 0px 5px rgba(150,6,6,0.7);
+    background-color: #d42a4c;
+    box-shadow: 0px 0px 25px 15px rgba(212, 42, 76, 0.3);
+    -webkit-box-shadow: 0px 0px 25px 15px rgba(212, 42, 76, 0.3);
+    -moz-box-shadow: 0px 0px 25px 15px rgba(212, 42, 76, 0.3);
   }
-  50%{
-    box-shadow: 0px 0px 0px 10px rgba(150,6,6,0.2);
+
+  50% {
+    background-color: #802323;
+    box-shadow: 0px 0px 25px 15px rgba(128, 35, 35, 0.3);
+    -webkit-box-shadow: 0px 0px 25px 15px rgba(128, 35, 35, 0.3);
+    -moz-box-shadow: 0px 0px 25px 15px rgba(128, 35, 35, 0.3);
   }
+
   100% {
-    box-shadow: 0px 0px 0px 15px rgba(150,6,6,0.1);
+    background-color: #df2d2d;
+    box-shadow: 0px 0px 25px 15px rgba(223, 45, 45, 0.3);
+    -webkit-box-shadow: 0px 0px 25px 15px rgba(223, 45, 45, 0.3);
+    -moz-box-shadow: 0px 0px 25px 15px rgba(223, 45, 45, 0.3);
   }
 }
 /* Ripple Effect  */
