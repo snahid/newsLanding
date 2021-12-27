@@ -125,7 +125,7 @@ $('.cross').click(function () {
 
     $('.mycategory-owl').owlCarousel({
       loop: false,
-      margin: 20,
+      margin: 10,
       nav: false,
       dots: false,
       autoplay: false,

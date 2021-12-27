@@ -10789,6 +10789,11 @@ body {
     font-size: 14px;
   }
 }
+@media (max-width: 480px) {
+  .categorymenu .mycategory-owl .item a {
+    font-size: 13px;
+  }
+}
 .categorymenu .mycategory-owl .item .active-category-link {
   background-color: #960606 !important;
   color: #fff;
