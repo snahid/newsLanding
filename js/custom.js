@@ -136,13 +136,13 @@ $('.cross').click(function () {
               items: 2
           },
           260: {
-              items: 1
+              items: 3
           },
           380: {
-              items: 1
+              items: 4
           },
           768: {
-              items: 2
+              items: 4
           },
           992: {
               items: 4
