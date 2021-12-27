@@ -3509,27 +3509,32 @@ body {
 }
 @media (max-width: 600px) {
   .n-container {
-    max-width: 555px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 480px) {
   .n-container {
-    max-width: 450px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 450px) {
   .n-container {
-    max-width: 420px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 425px) {
   .n-container {
-    max-width: 400px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 414px) {
   .n-container {
-    max-width: 370px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 400px) {

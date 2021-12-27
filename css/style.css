@@ -1902,27 +1902,32 @@ body {
 }
 @media (max-width: 600px) {
   .mycontainer {
-    max-width: 555px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 480px) {
   .mycontainer {
-    max-width: 450px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 450px) {
   .mycontainer {
-    max-width: 420px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 425px) {
   .mycontainer {
-    max-width: 400px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 414px) {
   .mycontainer {
-    max-width: 370px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 380px) {
@@ -3509,27 +3514,32 @@ body {
 }
 @media (max-width: 600px) {
   .n-container {
-    max-width: 555px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 480px) {
   .n-container {
-    max-width: 450px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 450px) {
   .n-container {
-    max-width: 420px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 425px) {
   .n-container {
-    max-width: 400px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 414px) {
   .n-container {
-    max-width: 370px;
+    max-width: 95%;
+    width: 95%;
   }
 }
 @media (max-width: 400px) {
@@ -10963,6 +10973,10 @@ body {
 
 .modal-footer {
   border-top: 0px solid transparent;
+}
+.modal-footer .mymodal-footer-btn {
+  background-color: #960606;
+  border: 1px solid #960606;
 }
 
 /*# sourceMappingURL=style.css.map */

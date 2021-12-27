@@ -490,6 +490,10 @@
 .modal-footer {
     border-top: 0px solid transparent;
     // padding: 0;
+    .mymodal-footer-btn{
+        background-color: #960606;
+        border: 1px solid #960606;
+    }
 }
 
 // pop Up 
