@@ -10428,8 +10428,10 @@ body {
     width: 100%;
   }
 }
-.newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox {
-  margin-right: 10px;
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox {
+    margin-right: 10px;
+  }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox img {
   width: 100%;
@@ -10460,7 +10462,7 @@ body {
   line-height: 18px;
   font-weight: normal;
   margin-bottom: 10px;
-  background-color: #960606;
+  background-color: #B34142;
   padding: 4px 3px;
   max-width: 125px;
   text-align: center;
@@ -10470,14 +10472,15 @@ body {
 @media (max-width: 425px) {
   .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listcompanyname {
     margin-top: 0;
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 10px;
+    padding: 3px 3px;
   }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
   text-decoration: none;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 23px;
   color: #000000;
   overflow: hidden;
@@ -10487,15 +10490,10 @@ body {
   -webkit-box-orient: vertical;
   margin-bottom: 15px;
 }
-@media (max-width: 575px) {
-  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
-    font-size: 17px;
-  }
-}
 @media (max-width: 425px) {
   .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
     margin-bottom: 9px;
-    line-height: 20px;
+    line-height: 21px;
   }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle:hover {
@@ -10706,6 +10704,14 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 425px) {
+  .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a {
+    background-color: #960606;
+    color: #ffffff;
+    padding: 5px 5px;
+    border-radius: 30px;
+  }
+}
 .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a:hover {
   background-color: #B34142;
   color: #ffffff;
@@ -10833,7 +10839,7 @@ body {
 }
 @media (max-width: 768px) {
   .categorymenu .mycategory-owl .item a {
-    padding: 5px 3px;
+    padding: 10px 3px;
     font-size: 14px;
   }
 }

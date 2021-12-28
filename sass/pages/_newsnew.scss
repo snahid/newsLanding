@@ -148,6 +148,12 @@
                                 letter-spacing: 1px;
                                 text-align: center;
                             }
+                            @media(max-width: 425px){
+                                background-color: #960606;
+                                color: #ffffff;
+                                padding: 5px 5px;
+                                border-radius: 30px;
+                            }
 
                             &:hover {
                                 background-color: #B34142;
@@ -291,7 +297,7 @@
                 }
 
                 @media(max-width: 768px) {
-                    padding: 5px 3px;
+                    padding: 10px 3px;
                     font-size: 14px;
                 }
 
