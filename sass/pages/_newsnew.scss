@@ -140,19 +140,16 @@
                             transition: 0.5s ease;
 
                             @media(max-width: 1024px) {
-                                padding: 10px 15px;
+                                padding: 10px 20px;
                             }
 
                             @media(max-width: 800px) {
-                                padding: 7px 5px;
+                                padding: 7px 20px;
                                 letter-spacing: 1px;
                                 text-align: center;
                             }
                             @media(max-width: 425px){
-                                background-color: #960606;
-                                color: #ffffff;
-                                padding: 5px 5px;
-                                border-radius: 30px;
+                                padding: 5px 20px;
                             }
 
                             &:hover {
@@ -299,6 +296,8 @@
                 @media(max-width: 768px) {
                     padding: 10px 3px;
                     font-size: 14px;
+                    background-color: transparent;
+                    border: 1px solid #960606;
                 }
 
                 @media(max-width: 480px) {
@@ -466,7 +465,7 @@
         content: "";
         border-radius: 50%;
         z-index: -1;
-        animation: ripple 1s infinite linear;
+        animation: ripple 2s infinite linear;
     }
     &::before{
         background-color: #ff0202;
@@ -478,7 +477,7 @@
         content: "";
         border-radius: 50%;
         z-index: -1;
-        animation: rippleb 2.2s infinite linear;
+        animation: rippleb 3.2s infinite linear;
     }
     @media(max-width: 1440px) {
         width: 50px;

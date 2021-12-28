@@ -1,3 +1,5 @@
+activePageLinkControl();
+
 $(".slick-carousel").slick({
   speed: 500,
   infinite: false,
@@ -162,3 +164,10 @@ $('.mycategory-owl').owlCarousel({
 // myModal.addEventListener('shown.bs.modal', function () {
 //   myInput.focus()
 // })
+
+function activePageLinkControl() {
+  $(".mycategory-owl .item a").click(function () {
+    $(".mycategory-owl .item a").removeClass("active-category-link");
+    $(this).closest(".mycategory-owl .item a").addClass("active-category-link");
+  });
+}

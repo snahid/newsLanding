@@ -10458,13 +10458,13 @@ body {
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listcompanyname {
   color: #fff;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
   font-weight: normal;
   margin-bottom: 10px;
   background-color: #B34142;
-  padding: 4px 3px;
-  max-width: 125px;
+  padding: 3px 2px;
+  max-width: 120px;
   text-align: center;
   margin-top: 20px;
   border-radius: 2px;
@@ -10474,7 +10474,7 @@ body {
     margin-top: 0;
     font-size: 12px;
     margin-bottom: 10px;
-    padding: 3px 3px;
+    padding: 3px 2px;
   }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
@@ -10694,22 +10694,19 @@ body {
 }
 @media (max-width: 1024px) {
   .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a {
-    padding: 10px 15px;
+    padding: 10px 20px;
   }
 }
 @media (max-width: 800px) {
   .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a {
-    padding: 7px 5px;
+    padding: 7px 20px;
     letter-spacing: 1px;
     text-align: center;
   }
 }
 @media (max-width: 425px) {
   .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a {
-    background-color: #960606;
-    color: #ffffff;
-    padding: 5px 5px;
-    border-radius: 30px;
+    padding: 5px 20px;
   }
 }
 .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a:hover {
@@ -10841,6 +10838,8 @@ body {
   .categorymenu .mycategory-owl .item a {
     padding: 10px 3px;
     font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #960606;
   }
 }
 @media (max-width: 480px) {
@@ -11002,7 +11001,7 @@ body {
   content: "";
   border-radius: 50%;
   z-index: -1;
-  animation: ripple 1s infinite linear;
+  animation: ripple 2s infinite linear;
 }
 .modal-btn::before {
   background-color: #ff0202;
@@ -11014,7 +11013,7 @@ body {
   content: "";
   border-radius: 50%;
   z-index: -1;
-  animation: rippleb 2.2s infinite linear;
+  animation: rippleb 3.2s infinite linear;
 }
 @media (max-width: 1440px) {
   .modal-btn {
