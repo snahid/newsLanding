@@ -8,8 +8,7 @@ $(".slick-carousel").slick({
   dots: false,
   centerMode: false,
   arrows: false,
-  responsive: [
-    {
+  responsive: [{
       breakpoint: 1920,
       settings: {
         slidesToShow: 4,
@@ -59,99 +58,102 @@ $(".slick-carousel").slick({
 
 // Mobile Menu 
 $('.menu-dots').click(function () {
-    $('.menu-dots').css({
-        'transition': '0.3s ease-in-out',
-        'opacity': '0',
-        'visibility': 'hidden'
-    });
-    $('.cross').css({
-        'visibility': 'visible',
-        'transition': '0.3s ease-in-out',
-        'opacity': '1'
-    });
-    $('.menu-wrapper').css({
-        'visibility': 'visible',
-        'opacity': '1',
-        'z-index': '5'
-    });
+  $('.menu-dots').css({
+    'transition': '0.3s ease-in-out',
+    'opacity': '0',
+    'visibility': 'hidden'
+  });
+  $('.cross').css({
+    'visibility': 'visible',
+    'transition': '0.3s ease-in-out',
+    'opacity': '1'
+  });
+  $('.menu-wrapper').css({
+    'visibility': 'visible',
+    'opacity': '1',
+    'z-index': '5'
+  });
 });
 $('.cross').click(function () {
-    $('.cross').css({
-        'transition': '0.3s ease-in-out',
-        'opacity': '0',
-        'visibility': 'hidden'
-    });
-    $('.menu-dots').css({
+  $('.cross').css({
+    'transition': '0.3s ease-in-out',
+    'opacity': '0',
+    'visibility': 'hidden'
+  });
+  $('.menu-dots').css({
 
-        'transition': '0.3s ease-in-out',
-        'opacity': '1',
-        'visibility': 'visible'
-    });
-    $('.menu-wrapper').css({
-        'visibility': 'hidden',
-        'opacity': '0',
-        'z-index': '-1'
-    });
+    'transition': '0.3s ease-in-out',
+    'opacity': '1',
+    'visibility': 'visible'
+  });
+  $('.menu-wrapper').css({
+    'visibility': 'hidden',
+    'opacity': '0',
+    'z-index': '-1'
+  });
 });
 // Mobile Menu 
 
- //Scroll
-    const nav = document.querySelector(".header-inner");
-    const mmenu = document.querySelector(".menu-wrapper");
-        let lastScrollY = window.scrollY;
-        window.addEventListener("scroll", () => {
-        if (lastScrollY < window.scrollY) {
-            if(mmenu.style.opacity == '1'){
-                nav.style.transform = "translateY(0px)";
-                nav.style.top = "0px";
-            }else{
-                nav.style.transform = "translateY(-100px)";
-                nav.style.top = "-100px";
-            }
-        } else {
-            nav.style.transform = "translateY(0px)";
-            nav.style.top = "0px";
-        }
-        lastScrollY = window.scrollY;
-    });
-    //Scroll
-
-
-    function goBack() {
-      window.history.back();
+//Scroll
+const nav = document.querySelector(".header-inner");
+const mmenu = document.querySelector(".menu-wrapper");
+let lastScrollY = window.scrollY;
+window.addEventListener("scroll", () => {
+  if (lastScrollY < window.scrollY) {
+    if (mmenu.style.opacity == '1') {
+      nav.style.transform = "translateY(0px)";
+      nav.style.top = "0px";
+    } else {
+      nav.style.transform = "translateY(-100px)";
+      nav.style.top = "-100px";
     }
+  } else {
+    nav.style.transform = "translateY(0px)";
+    nav.style.top = "0px";
+  }
+  lastScrollY = window.scrollY;
+});
+//Scroll
 
-   
 
-    $('.mycategory-owl').owlCarousel({
-      loop: false,
-      margin: 10,
-      nav: false,
-      dots: false,
-      autoplay: false,
-      autoplayTimeout: 4000,
-      autoplayHoverPause: true,
-      responsive: {
-          0: {
-              items: 2
-          },
-          260: {
-              items: 3
-          },
-          380: {
-              items: 4
-          },
-          768: {
-              items: 4
-          },
-          992: {
-              items: 4
-          },
-          1300: {
-              items: 4
-          }
-      }
-  })
+function goBack() {
+  window.history.back();
+}
+
+
+
+$('.mycategory-owl').owlCarousel({
+  loop: false,
+  margin: 10,
+  nav: false,
+  dots: false,
+  autoplay: false,
+  autoplayTimeout: 4000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 2
+    },
+    260: {
+      items: 3
+    },
+    480: {
+      items: 3
+    },
+    500: {
+      items: 4
+    },
+    768: {
+      items: 4
+    },
+    992: {
+      items: 4
+    },
+    1300: {
+      items: 4
+    }
+  }
+})
 
 
 //   var myModal = document.getElementById('myModal')

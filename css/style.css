@@ -10421,11 +10421,34 @@ body {
   grid-gap: 15px;
   padding-bottom: 50px;
 }
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+.newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox {
+  margin-right: 10px;
+}
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox img {
   width: 100%;
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
+}
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+  }
+}
+@media (max-width: 400px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .imgbox img {
+    width: 100px;
+    height: 100px;
+  }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box {
   display: flex;
@@ -10443,6 +10466,13 @@ body {
   text-align: center;
   margin-top: 20px;
   border-radius: 2px;
+}
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listcompanyname {
+    margin-top: 0;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
   text-decoration: none;
@@ -10462,6 +10492,12 @@ body {
     font-size: 17px;
   }
 }
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle {
+    margin-bottom: 9px;
+    line-height: 20px;
+  }
+}
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listtitle:hover {
   text-decoration: underline;
 }
@@ -10471,6 +10507,11 @@ body {
   font-weight: normal;
   line-height: 15px;
   margin-top: auto;
+}
+@media (max-width: 425px) {
+  .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listdate {
+    font-size: 13px;
+  }
 }
 .newscategory-list-wrapper .newscategory-inner-wrapper .newscategorylist-box .list-content-box .listdate span {
   text-transform: uppercase;
@@ -10661,11 +10702,18 @@ body {
 @media (max-width: 800px) {
   .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a {
     padding: 7px 5px;
+    letter-spacing: 1px;
+    text-align: center;
   }
 }
 .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a:hover {
   background-color: #B34142;
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .phone-outside-wrapper .phoneNo-wrapper a i {
+    display: none;
+  }
 }
 .header-section-wrapper .header-inner .header-section-inner-wrapper .right-phone-section .myicon {
   color: #fff;
@@ -10792,6 +10840,12 @@ body {
 @media (max-width: 480px) {
   .categorymenu .mycategory-owl .item a {
     font-size: 13px;
+  }
+}
+@media (max-width: 360px) {
+  .categorymenu .mycategory-owl .item a {
+    font-size: 12px;
+    font-weight: 400;
   }
 }
 .categorymenu .mycategory-owl .item .active-category-link {
@@ -10929,11 +10983,32 @@ body {
   position: relative;
   width: 50px;
   height: 50px;
-  animation: ripple 4s infinite;
-  transition: 0.4s ease-in-out;
-  box-shadow: 0px 0px 25px 15px rgba(150, 6, 6, 0.15);
-  -webkit-box-shadow: 0px 0px 25px 15px rgba(150, 6, 6, 0.15);
-  -moz-box-shadow: 0px 0px 25px 15px rgba(150, 6, 6, 0.15);
+  position: relative;
+  z-index: 1;
+}
+.modal-btn::after {
+  background-color: #960606;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  border-radius: 50%;
+  z-index: -1;
+  animation: ripple 1s infinite linear;
+}
+.modal-btn::before {
+  background-color: #ff0202;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  border-radius: 50%;
+  z-index: -1;
+  animation: rippleb 2.2s infinite linear;
 }
 @media (max-width: 1440px) {
   .modal-btn {
